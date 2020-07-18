@@ -1,0 +1,6 @@
+runtime: nodejs10
+
+env_variables:
+    PORT: "8080"
+    SERVER: "https://events-backend-dot-mindful-primer-272612.appspot.com"
+

@@ -1,0 +1,5 @@
+docker build -t drehnstrom/events-sample-external:v1.0.0 .
+docker push drehnstrom/events-sample-external:v1.0.0
+
+# Google Cloud build
+gcloud builds submit --tag=gcr.io/mindful-primer-272612/events-sample-external:v1.0.0 .
