@@ -15,7 +15,7 @@ node {
                 sh "${scannerhome}/bin/sonar-scanner \
                     -Dsonar.projectKey=Capstone \
                     -Dsonar.sources=. \
-                    -Dsonar.host.url=http://35.193.166.21:9000 \
+                    -Dsonar.host.url=http://34.70.35.238:9000 \
                     -Dsonar.login=87ee38d24ca93b8a6710848d973a5ab34f22c57c"
             }
         }
