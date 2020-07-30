@@ -13,10 +13,10 @@ node {
             def scannerhome = tool 'sonar-scanner'
             withSonarQubeEnv ("SonarQube") {
                 sh "${scannerhome}/bin/sonar-scanner \
-                    -Dsonar.projectKey=Capstone \
+                    -Dsonar.projectKey=capstone \
                     -Dsonar.sources=. \
                     -Dsonar.host.url=http://34.70.35.238:9000 \
-                    -Dsonar.login=87ee38d24ca93b8a6710848d973a5ab34f22c57c"
+                    -Dsonar.login=fff4c2b1eba697ece8018731b6e416e26ad0c043"
             }
         }
     }
